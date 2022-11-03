@@ -148,6 +148,11 @@ footer {
   line-height: 1.4;
   padding-bottom: 1.875rem;
   padding-top: 1.875rem;
+  font-weight: bold;
+}
+
+.footer-wrapper {
+  padding: 0 10.5rem;
 }
 
 .network-logo {
@@ -173,4 +178,27 @@ table,
 th,
 td {
   border: none;
+  text-align: left;
+}
+table {
+  border: none;
+  width: 95%;
+  margin: 1rem auto;
+  height: 9rem;
+}
+
+.footer-link {
+  color: #000;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+.footer-warning {
+  border: 1px solid;
+  width: 23%;
+  padding: 0.65rem;
+  margin: 1rem 0;
+  color: #000;
 }
