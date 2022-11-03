@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+}
+
+.nav-bar {
+  background-color: #fcf5e0;
+  color: #000;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.nav-bar-wrapper {
+  display: flex;
+  align-content: center;
+  justify-content: space-evenly;
+  padding: 0.5rem;
+}
+
+.menu-logo {
+  display: flex;
+  width: 15%;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.menu-logo i {
+  margin-right: 0.8rem;
+}
+
+.nav1 {
+  display: flex;
+  align-content: center;
+  justify-content: space-evenly;
+  width: 40%;
+  align-items: center;
+}
+
+.nav2 {
+  display: flex;
+  width: 20%;
+  align-content: center;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.thks-giving-ideas {
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.recipes-and-food,
+.news-wrapper,
+.entert-gift-quotes {
+  display: flex;
+}
