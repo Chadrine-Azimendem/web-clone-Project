@@ -1,5 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400;500&family=Roboto:wght@100;300;400;500&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
+  font-family: "Roboto Slab", serif;
 }
 
 main {
@@ -49,10 +56,20 @@ a {
   width: 20%;
   align-content: center;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: space-evenly;
 }
 
-.thks-giving-ideas {
+.subscribe-btn {
+  background-color: #304330;
+  padding: 0.45rem;
+  border: none;
+}
+
+#navbtn {
+  color: white;
+}
+
+.thks-giving-wrapper {
   display: flex;
   flex-direction: row;
   align-content: center;
@@ -60,10 +77,12 @@ a {
   align-items: center;
   width: 100%;
   margin-top: 6rem;
+  margin-left: 6rem;
 }
 
 .main-article {
   background-color: #214a23;
+  width: 54.5%;
 }
 
 .banner-img {
@@ -82,6 +101,14 @@ a {
   color: #fcf5e0;
 }
 
+.others {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  height: 660px;
+}
+
 .others-img {
   width: 147px;
   height: 147px;
@@ -95,22 +122,69 @@ a {
   align-items: center;
 }
 
+.items-text {
+  text-align: left;
+  width: 40%;
+  font-size: 1.25rem;
+  padding-left: 1rem;
+}
+
 .Mississippi-item {
-  width: 71.5%;
+  width: 56%;
   background-color: #fcf5e0;
   color: #000;
   text-align: center;
   margin-top: 4rem;
+  margin-left: 7rem;
 }
 
-.entert-gift-quotes {
-  margin-top: 4rem;
+.vedeo-sec {
+  width: 60%;
+  margin-left: 7rem;
 }
 
-.recipes-and-food,
-.news-wrapper,
+.video-title {
+  text-align: center;
+  padding: 4rem;
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+  background-color: #fcf5e0;
+}
+
 .entert-gift-quotes {
   display: flex;
+  justify-content: center;
+}
+
+.ent-g-quot {
+  display: flex;
+  text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  width: 83.5%;
+}
+
+.quote-text {
+  background-color: #fcf5e0;
+  padding: 4rem;
+  width: 84%;
+  text-align: center;
+}
+
+.food-recipes {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 4rem 0;
+}
+
+.recipes-and-food {
+  display: flex;
+  justify-content: space-evenly;
+  width: 90%;
+  text-align: center;
 }
 
 .recipes-img {
@@ -127,17 +201,36 @@ a {
 .news-wrapper {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
-  flex-wrap: wrap;
+  width: 80%;
 }
 
 .house {
-  width: 92%;
+  width: 80%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: #fcf5e0;
+  margin-left: 7rem;
+  margin-bottom: 4rem;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 1.25rem;
+  line-height: 1.2;
+  align-items: center;
+  width: 17.4rem;
+}
+
+span {
+  width: 100%;
+  padding: 1rem 0;
 }
 
 footer {
@@ -191,7 +284,8 @@ table {
   color: #000;
 }
 
-.footer-link:hover {
+.footer-link:hover,
+.nav-item:hover {
   text-decoration: underline;
 }
 
@@ -201,4 +295,8 @@ table {
   padding: 0.65rem;
   margin: 1rem 0;
   color: #000;
+}
+
+.footer-warning:hover {
+  background-color: #696969bd;
 }
