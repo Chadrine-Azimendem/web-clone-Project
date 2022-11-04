@@ -2,6 +2,7 @@
 
 * {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -30,6 +31,8 @@ a {
   align-content: center;
   justify-content: space-evenly;
   padding: 0.5rem;
+  font-size: 0.75rem;
+  font-weight: bold;
 }
 
 .menu-logo {
@@ -164,6 +167,10 @@ a {
   width: 83.5%;
 }
 
+.ent-g-quot div {
+  margin-bottom: 10px;
+}
+
 .quote-text {
   background-color: #fcf5e0;
   padding: 4rem;
@@ -178,6 +185,10 @@ a {
   align-items: center;
   justify-content: space-evenly;
   margin: 4rem 0;
+}
+
+.h1-food {
+  margin-top: 4rem;
 }
 
 .recipes-and-food {
@@ -231,6 +242,24 @@ a {
 span {
   width: 100%;
   padding: 1rem 0;
+}
+
+.hover-paragraph:hover {
+  color: #549e38;
+  cursor: pointer;
+}
+
+.top-btn-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+#bactotop {
+  height: 3rem;
+  width: 2rem;
+  border: 2px solid #569d3b;
+  background-color: #40ad40;
 }
 
 footer {
